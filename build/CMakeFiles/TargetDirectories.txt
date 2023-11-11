@@ -1,0 +1,5 @@
+/home/ziadoweis/DataStructures_git/Lab08Game/build/CMakeFiles/applibrary.dir
+/home/ziadoweis/DataStructures_git/Lab08Game/build/CMakeFiles/runTests.dir
+/home/ziadoweis/DataStructures_git/Lab08Game/build/CMakeFiles/runMain.dir
+/home/ziadoweis/DataStructures_git/Lab08Game/build/CMakeFiles/edit_cache.dir
+/home/ziadoweis/DataStructures_git/Lab08Game/build/CMakeFiles/rebuild_cache.dir
