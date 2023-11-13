@@ -85,12 +85,20 @@ clean: CMakeFiles/runMain.dir/clean
 CMakeFiles/applibrary.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/applibrary.dir/build.make CMakeFiles/applibrary.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/applibrary.dir/build.make CMakeFiles/applibrary.dir/build
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ziadoweis/DataStructures_git/Lab08Game/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12 "Built target applibrary"
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ziadoweis/DataStructures_git/Lab08Game/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9 "Built target applibrary"
+>>>>>>> 4d95fb2dd12e3b5817f25212437b8938f939afa8
 .PHONY : CMakeFiles/applibrary.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/applibrary.dir/rule: cmake_check_build_system
+<<<<<<< HEAD
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ziadoweis/DataStructures_git/Lab08Game/build/CMakeFiles 12
+=======
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ziadoweis/DataStructures_git/Lab08Game/build/CMakeFiles 9
+>>>>>>> 4d95fb2dd12e3b5817f25212437b8938f939afa8
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/applibrary.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ziadoweis/DataStructures_git/Lab08Game/build/CMakeFiles 0
 .PHONY : CMakeFiles/applibrary.dir/rule
@@ -111,12 +119,20 @@ CMakeFiles/applibrary.dir/clean:
 CMakeFiles/runTests.dir/all: CMakeFiles/applibrary.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/runTests.dir/build.make CMakeFiles/runTests.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/runTests.dir/build.make CMakeFiles/runTests.dir/build
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ziadoweis/DataStructures_git/Lab08Game/build/CMakeFiles --progress-num=15,16 "Built target runTests"
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ziadoweis/DataStructures_git/Lab08Game/build/CMakeFiles --progress-num=12,13 "Built target runTests"
+>>>>>>> 4d95fb2dd12e3b5817f25212437b8938f939afa8
 .PHONY : CMakeFiles/runTests.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/runTests.dir/rule: cmake_check_build_system
+<<<<<<< HEAD
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ziadoweis/DataStructures_git/Lab08Game/build/CMakeFiles 14
+=======
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ziadoweis/DataStructures_git/Lab08Game/build/CMakeFiles 11
+>>>>>>> 4d95fb2dd12e3b5817f25212437b8938f939afa8
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/runTests.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ziadoweis/DataStructures_git/Lab08Game/build/CMakeFiles 0
 .PHONY : CMakeFiles/runTests.dir/rule
@@ -137,12 +153,20 @@ CMakeFiles/runTests.dir/clean:
 CMakeFiles/runMain.dir/all: CMakeFiles/applibrary.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/runMain.dir/build.make CMakeFiles/runMain.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/runMain.dir/build.make CMakeFiles/runMain.dir/build
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ziadoweis/DataStructures_git/Lab08Game/build/CMakeFiles --progress-num=13,14 "Built target runMain"
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ziadoweis/DataStructures_git/Lab08Game/build/CMakeFiles --progress-num=10,11 "Built target runMain"
+>>>>>>> 4d95fb2dd12e3b5817f25212437b8938f939afa8
 .PHONY : CMakeFiles/runMain.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/runMain.dir/rule: cmake_check_build_system
+<<<<<<< HEAD
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ziadoweis/DataStructures_git/Lab08Game/build/CMakeFiles 14
+=======
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ziadoweis/DataStructures_git/Lab08Game/build/CMakeFiles 11
+>>>>>>> 4d95fb2dd12e3b5817f25212437b8938f939afa8
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/runMain.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ziadoweis/DataStructures_git/Lab08Game/build/CMakeFiles 0
 .PHONY : CMakeFiles/runMain.dir/rule

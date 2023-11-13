@@ -1,10 +1,13 @@
 file(REMOVE_RECURSE
+<<<<<<< HEAD
   "CMakeFiles/applibrary.dir/CharacterCreator.cpp.o"
   "CMakeFiles/applibrary.dir/CharacterCreator.cpp.o.d"
   "CMakeFiles/applibrary.dir/ICharacter.cpp.o"
   "CMakeFiles/applibrary.dir/ICharacter.cpp.o.d"
   "CMakeFiles/applibrary.dir/IRace.cpp.o"
   "CMakeFiles/applibrary.dir/IRace.cpp.o.d"
+=======
+>>>>>>> 4d95fb2dd12e3b5817f25212437b8938f939afa8
   "CMakeFiles/applibrary.dir/Professions/Archer.cpp.o"
   "CMakeFiles/applibrary.dir/Professions/Archer.cpp.o.d"
   "CMakeFiles/applibrary.dir/Professions/Assassin.cpp.o"

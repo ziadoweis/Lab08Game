@@ -155,6 +155,7 @@ runMain/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/runMain.dir/build.make CMakeFiles/runMain.dir/build
 .PHONY : runMain/fast
 
+<<<<<<< HEAD
 CharacterCreator.o: CharacterCreator.cpp.o
 .PHONY : CharacterCreator.o
 
@@ -227,6 +228,8 @@ IRace.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/applibrary.dir/build.make CMakeFiles/applibrary.dir/IRace.cpp.s
 .PHONY : IRace.cpp.s
 
+=======
+>>>>>>> 4d95fb2dd12e3b5817f25212437b8938f939afa8
 Professions/Archer.o: Professions/Archer.cpp.o
 .PHONY : Professions/Archer.o
 
@@ -478,6 +481,7 @@ help:
 	@echo "... applibrary"
 	@echo "... runMain"
 	@echo "... runTests"
+<<<<<<< HEAD
 	@echo "... CharacterCreator.o"
 	@echo "... CharacterCreator.i"
 	@echo "... CharacterCreator.s"
@@ -487,6 +491,8 @@ help:
 	@echo "... IRace.o"
 	@echo "... IRace.i"
 	@echo "... IRace.s"
+=======
+>>>>>>> 4d95fb2dd12e3b5817f25212437b8938f939afa8
 	@echo "... Professions/Archer.o"
 	@echo "... Professions/Archer.i"
 	@echo "... Professions/Archer.s"

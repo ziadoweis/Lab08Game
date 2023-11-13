@@ -8,9 +8,12 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+<<<<<<< HEAD
   "/home/ziadoweis/DataStructures_git/Lab08Game/CharacterCreator.cpp" "CMakeFiles/applibrary.dir/CharacterCreator.cpp.o" "gcc" "CMakeFiles/applibrary.dir/CharacterCreator.cpp.o.d"
   "/home/ziadoweis/DataStructures_git/Lab08Game/ICharacter.cpp" "CMakeFiles/applibrary.dir/ICharacter.cpp.o" "gcc" "CMakeFiles/applibrary.dir/ICharacter.cpp.o.d"
   "/home/ziadoweis/DataStructures_git/Lab08Game/IRace.cpp" "CMakeFiles/applibrary.dir/IRace.cpp.o" "gcc" "CMakeFiles/applibrary.dir/IRace.cpp.o.d"
+=======
+>>>>>>> 4d95fb2dd12e3b5817f25212437b8938f939afa8
   "/home/ziadoweis/DataStructures_git/Lab08Game/Professions/Archer.cpp" "CMakeFiles/applibrary.dir/Professions/Archer.cpp.o" "gcc" "CMakeFiles/applibrary.dir/Professions/Archer.cpp.o.d"
   "/home/ziadoweis/DataStructures_git/Lab08Game/Professions/Assassin.cpp" "CMakeFiles/applibrary.dir/Professions/Assassin.cpp.o" "gcc" "CMakeFiles/applibrary.dir/Professions/Assassin.cpp.o.d"
   "/home/ziadoweis/DataStructures_git/Lab08Game/Professions/Mage.cpp" "CMakeFiles/applibrary.dir/Professions/Mage.cpp.o" "gcc" "CMakeFiles/applibrary.dir/Professions/Mage.cpp.o.d"
