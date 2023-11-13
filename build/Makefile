@@ -155,6 +155,78 @@ runMain/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/runMain.dir/build.make CMakeFiles/runMain.dir/build
 .PHONY : runMain/fast
 
+CharacterCreator.o: CharacterCreator.cpp.o
+.PHONY : CharacterCreator.o
+
+# target to build an object file
+CharacterCreator.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/applibrary.dir/build.make CMakeFiles/applibrary.dir/CharacterCreator.cpp.o
+.PHONY : CharacterCreator.cpp.o
+
+CharacterCreator.i: CharacterCreator.cpp.i
+.PHONY : CharacterCreator.i
+
+# target to preprocess a source file
+CharacterCreator.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/applibrary.dir/build.make CMakeFiles/applibrary.dir/CharacterCreator.cpp.i
+.PHONY : CharacterCreator.cpp.i
+
+CharacterCreator.s: CharacterCreator.cpp.s
+.PHONY : CharacterCreator.s
+
+# target to generate assembly for a file
+CharacterCreator.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/applibrary.dir/build.make CMakeFiles/applibrary.dir/CharacterCreator.cpp.s
+.PHONY : CharacterCreator.cpp.s
+
+ICharacter.o: ICharacter.cpp.o
+.PHONY : ICharacter.o
+
+# target to build an object file
+ICharacter.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/applibrary.dir/build.make CMakeFiles/applibrary.dir/ICharacter.cpp.o
+.PHONY : ICharacter.cpp.o
+
+ICharacter.i: ICharacter.cpp.i
+.PHONY : ICharacter.i
+
+# target to preprocess a source file
+ICharacter.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/applibrary.dir/build.make CMakeFiles/applibrary.dir/ICharacter.cpp.i
+.PHONY : ICharacter.cpp.i
+
+ICharacter.s: ICharacter.cpp.s
+.PHONY : ICharacter.s
+
+# target to generate assembly for a file
+ICharacter.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/applibrary.dir/build.make CMakeFiles/applibrary.dir/ICharacter.cpp.s
+.PHONY : ICharacter.cpp.s
+
+IRace.o: IRace.cpp.o
+.PHONY : IRace.o
+
+# target to build an object file
+IRace.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/applibrary.dir/build.make CMakeFiles/applibrary.dir/IRace.cpp.o
+.PHONY : IRace.cpp.o
+
+IRace.i: IRace.cpp.i
+.PHONY : IRace.i
+
+# target to preprocess a source file
+IRace.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/applibrary.dir/build.make CMakeFiles/applibrary.dir/IRace.cpp.i
+.PHONY : IRace.cpp.i
+
+IRace.s: IRace.cpp.s
+.PHONY : IRace.s
+
+# target to generate assembly for a file
+IRace.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/applibrary.dir/build.make CMakeFiles/applibrary.dir/IRace.cpp.s
+.PHONY : IRace.cpp.s
+
 Professions/Archer.o: Professions/Archer.cpp.o
 .PHONY : Professions/Archer.o
 
@@ -406,6 +478,15 @@ help:
 	@echo "... applibrary"
 	@echo "... runMain"
 	@echo "... runTests"
+	@echo "... CharacterCreator.o"
+	@echo "... CharacterCreator.i"
+	@echo "... CharacterCreator.s"
+	@echo "... ICharacter.o"
+	@echo "... ICharacter.i"
+	@echo "... ICharacter.s"
+	@echo "... IRace.o"
+	@echo "... IRace.i"
+	@echo "... IRace.s"
 	@echo "... Professions/Archer.o"
 	@echo "... Professions/Archer.i"
 	@echo "... Professions/Archer.s"

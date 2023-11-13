@@ -69,10 +69,52 @@ include CMakeFiles/applibrary.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/applibrary.dir/flags.make
 
+CMakeFiles/applibrary.dir/IRace.cpp.o: CMakeFiles/applibrary.dir/flags.make
+CMakeFiles/applibrary.dir/IRace.cpp.o: ../IRace.cpp
+CMakeFiles/applibrary.dir/IRace.cpp.o: CMakeFiles/applibrary.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ziadoweis/DataStructures_git/Lab08Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/applibrary.dir/IRace.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/applibrary.dir/IRace.cpp.o -MF CMakeFiles/applibrary.dir/IRace.cpp.o.d -o CMakeFiles/applibrary.dir/IRace.cpp.o -c /home/ziadoweis/DataStructures_git/Lab08Game/IRace.cpp
+
+CMakeFiles/applibrary.dir/IRace.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/applibrary.dir/IRace.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ziadoweis/DataStructures_git/Lab08Game/IRace.cpp > CMakeFiles/applibrary.dir/IRace.cpp.i
+
+CMakeFiles/applibrary.dir/IRace.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/applibrary.dir/IRace.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ziadoweis/DataStructures_git/Lab08Game/IRace.cpp -o CMakeFiles/applibrary.dir/IRace.cpp.s
+
+CMakeFiles/applibrary.dir/ICharacter.cpp.o: CMakeFiles/applibrary.dir/flags.make
+CMakeFiles/applibrary.dir/ICharacter.cpp.o: ../ICharacter.cpp
+CMakeFiles/applibrary.dir/ICharacter.cpp.o: CMakeFiles/applibrary.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ziadoweis/DataStructures_git/Lab08Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/applibrary.dir/ICharacter.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/applibrary.dir/ICharacter.cpp.o -MF CMakeFiles/applibrary.dir/ICharacter.cpp.o.d -o CMakeFiles/applibrary.dir/ICharacter.cpp.o -c /home/ziadoweis/DataStructures_git/Lab08Game/ICharacter.cpp
+
+CMakeFiles/applibrary.dir/ICharacter.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/applibrary.dir/ICharacter.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ziadoweis/DataStructures_git/Lab08Game/ICharacter.cpp > CMakeFiles/applibrary.dir/ICharacter.cpp.i
+
+CMakeFiles/applibrary.dir/ICharacter.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/applibrary.dir/ICharacter.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ziadoweis/DataStructures_git/Lab08Game/ICharacter.cpp -o CMakeFiles/applibrary.dir/ICharacter.cpp.s
+
+CMakeFiles/applibrary.dir/CharacterCreator.cpp.o: CMakeFiles/applibrary.dir/flags.make
+CMakeFiles/applibrary.dir/CharacterCreator.cpp.o: ../CharacterCreator.cpp
+CMakeFiles/applibrary.dir/CharacterCreator.cpp.o: CMakeFiles/applibrary.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ziadoweis/DataStructures_git/Lab08Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/applibrary.dir/CharacterCreator.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/applibrary.dir/CharacterCreator.cpp.o -MF CMakeFiles/applibrary.dir/CharacterCreator.cpp.o.d -o CMakeFiles/applibrary.dir/CharacterCreator.cpp.o -c /home/ziadoweis/DataStructures_git/Lab08Game/CharacterCreator.cpp
+
+CMakeFiles/applibrary.dir/CharacterCreator.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/applibrary.dir/CharacterCreator.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ziadoweis/DataStructures_git/Lab08Game/CharacterCreator.cpp > CMakeFiles/applibrary.dir/CharacterCreator.cpp.i
+
+CMakeFiles/applibrary.dir/CharacterCreator.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/applibrary.dir/CharacterCreator.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ziadoweis/DataStructures_git/Lab08Game/CharacterCreator.cpp -o CMakeFiles/applibrary.dir/CharacterCreator.cpp.s
+
 CMakeFiles/applibrary.dir/Races/DarkElf.cpp.o: CMakeFiles/applibrary.dir/flags.make
 CMakeFiles/applibrary.dir/Races/DarkElf.cpp.o: ../Races/DarkElf.cpp
 CMakeFiles/applibrary.dir/Races/DarkElf.cpp.o: CMakeFiles/applibrary.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ziadoweis/DataStructures_git/Lab08Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/applibrary.dir/Races/DarkElf.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ziadoweis/DataStructures_git/Lab08Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/applibrary.dir/Races/DarkElf.cpp.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/applibrary.dir/Races/DarkElf.cpp.o -MF CMakeFiles/applibrary.dir/Races/DarkElf.cpp.o.d -o CMakeFiles/applibrary.dir/Races/DarkElf.cpp.o -c /home/ziadoweis/DataStructures_git/Lab08Game/Races/DarkElf.cpp
 
 CMakeFiles/applibrary.dir/Races/DarkElf.cpp.i: cmake_force
@@ -86,7 +128,7 @@ CMakeFiles/applibrary.dir/Races/DarkElf.cpp.s: cmake_force
 CMakeFiles/applibrary.dir/Races/Khajit.cpp.o: CMakeFiles/applibrary.dir/flags.make
 CMakeFiles/applibrary.dir/Races/Khajit.cpp.o: ../Races/Khajit.cpp
 CMakeFiles/applibrary.dir/Races/Khajit.cpp.o: CMakeFiles/applibrary.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ziadoweis/DataStructures_git/Lab08Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/applibrary.dir/Races/Khajit.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ziadoweis/DataStructures_git/Lab08Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/applibrary.dir/Races/Khajit.cpp.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/applibrary.dir/Races/Khajit.cpp.o -MF CMakeFiles/applibrary.dir/Races/Khajit.cpp.o.d -o CMakeFiles/applibrary.dir/Races/Khajit.cpp.o -c /home/ziadoweis/DataStructures_git/Lab08Game/Races/Khajit.cpp
 
 CMakeFiles/applibrary.dir/Races/Khajit.cpp.i: cmake_force
@@ -100,7 +142,7 @@ CMakeFiles/applibrary.dir/Races/Khajit.cpp.s: cmake_force
 CMakeFiles/applibrary.dir/Races/Nord.cpp.o: CMakeFiles/applibrary.dir/flags.make
 CMakeFiles/applibrary.dir/Races/Nord.cpp.o: ../Races/Nord.cpp
 CMakeFiles/applibrary.dir/Races/Nord.cpp.o: CMakeFiles/applibrary.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ziadoweis/DataStructures_git/Lab08Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/applibrary.dir/Races/Nord.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ziadoweis/DataStructures_git/Lab08Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/applibrary.dir/Races/Nord.cpp.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/applibrary.dir/Races/Nord.cpp.o -MF CMakeFiles/applibrary.dir/Races/Nord.cpp.o.d -o CMakeFiles/applibrary.dir/Races/Nord.cpp.o -c /home/ziadoweis/DataStructures_git/Lab08Game/Races/Nord.cpp
 
 CMakeFiles/applibrary.dir/Races/Nord.cpp.i: cmake_force
@@ -114,7 +156,7 @@ CMakeFiles/applibrary.dir/Races/Nord.cpp.s: cmake_force
 CMakeFiles/applibrary.dir/Races/Orc.cpp.o: CMakeFiles/applibrary.dir/flags.make
 CMakeFiles/applibrary.dir/Races/Orc.cpp.o: ../Races/Orc.cpp
 CMakeFiles/applibrary.dir/Races/Orc.cpp.o: CMakeFiles/applibrary.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ziadoweis/DataStructures_git/Lab08Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/applibrary.dir/Races/Orc.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ziadoweis/DataStructures_git/Lab08Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/applibrary.dir/Races/Orc.cpp.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/applibrary.dir/Races/Orc.cpp.o -MF CMakeFiles/applibrary.dir/Races/Orc.cpp.o.d -o CMakeFiles/applibrary.dir/Races/Orc.cpp.o -c /home/ziadoweis/DataStructures_git/Lab08Game/Races/Orc.cpp
 
 CMakeFiles/applibrary.dir/Races/Orc.cpp.i: cmake_force
@@ -128,7 +170,7 @@ CMakeFiles/applibrary.dir/Races/Orc.cpp.s: cmake_force
 CMakeFiles/applibrary.dir/Professions/Archer.cpp.o: CMakeFiles/applibrary.dir/flags.make
 CMakeFiles/applibrary.dir/Professions/Archer.cpp.o: ../Professions/Archer.cpp
 CMakeFiles/applibrary.dir/Professions/Archer.cpp.o: CMakeFiles/applibrary.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ziadoweis/DataStructures_git/Lab08Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/applibrary.dir/Professions/Archer.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ziadoweis/DataStructures_git/Lab08Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/applibrary.dir/Professions/Archer.cpp.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/applibrary.dir/Professions/Archer.cpp.o -MF CMakeFiles/applibrary.dir/Professions/Archer.cpp.o.d -o CMakeFiles/applibrary.dir/Professions/Archer.cpp.o -c /home/ziadoweis/DataStructures_git/Lab08Game/Professions/Archer.cpp
 
 CMakeFiles/applibrary.dir/Professions/Archer.cpp.i: cmake_force
@@ -142,7 +184,7 @@ CMakeFiles/applibrary.dir/Professions/Archer.cpp.s: cmake_force
 CMakeFiles/applibrary.dir/Professions/Assassin.cpp.o: CMakeFiles/applibrary.dir/flags.make
 CMakeFiles/applibrary.dir/Professions/Assassin.cpp.o: ../Professions/Assassin.cpp
 CMakeFiles/applibrary.dir/Professions/Assassin.cpp.o: CMakeFiles/applibrary.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ziadoweis/DataStructures_git/Lab08Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/applibrary.dir/Professions/Assassin.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ziadoweis/DataStructures_git/Lab08Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/applibrary.dir/Professions/Assassin.cpp.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/applibrary.dir/Professions/Assassin.cpp.o -MF CMakeFiles/applibrary.dir/Professions/Assassin.cpp.o.d -o CMakeFiles/applibrary.dir/Professions/Assassin.cpp.o -c /home/ziadoweis/DataStructures_git/Lab08Game/Professions/Assassin.cpp
 
 CMakeFiles/applibrary.dir/Professions/Assassin.cpp.i: cmake_force
@@ -156,7 +198,7 @@ CMakeFiles/applibrary.dir/Professions/Assassin.cpp.s: cmake_force
 CMakeFiles/applibrary.dir/Professions/Mage.cpp.o: CMakeFiles/applibrary.dir/flags.make
 CMakeFiles/applibrary.dir/Professions/Mage.cpp.o: ../Professions/Mage.cpp
 CMakeFiles/applibrary.dir/Professions/Mage.cpp.o: CMakeFiles/applibrary.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ziadoweis/DataStructures_git/Lab08Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/applibrary.dir/Professions/Mage.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ziadoweis/DataStructures_git/Lab08Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/applibrary.dir/Professions/Mage.cpp.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/applibrary.dir/Professions/Mage.cpp.o -MF CMakeFiles/applibrary.dir/Professions/Mage.cpp.o.d -o CMakeFiles/applibrary.dir/Professions/Mage.cpp.o -c /home/ziadoweis/DataStructures_git/Lab08Game/Professions/Mage.cpp
 
 CMakeFiles/applibrary.dir/Professions/Mage.cpp.i: cmake_force
@@ -170,7 +212,7 @@ CMakeFiles/applibrary.dir/Professions/Mage.cpp.s: cmake_force
 CMakeFiles/applibrary.dir/Professions/Warrior.cpp.o: CMakeFiles/applibrary.dir/flags.make
 CMakeFiles/applibrary.dir/Professions/Warrior.cpp.o: ../Professions/Warrior.cpp
 CMakeFiles/applibrary.dir/Professions/Warrior.cpp.o: CMakeFiles/applibrary.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ziadoweis/DataStructures_git/Lab08Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/applibrary.dir/Professions/Warrior.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ziadoweis/DataStructures_git/Lab08Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/applibrary.dir/Professions/Warrior.cpp.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/applibrary.dir/Professions/Warrior.cpp.o -MF CMakeFiles/applibrary.dir/Professions/Warrior.cpp.o.d -o CMakeFiles/applibrary.dir/Professions/Warrior.cpp.o -c /home/ziadoweis/DataStructures_git/Lab08Game/Professions/Warrior.cpp
 
 CMakeFiles/applibrary.dir/Professions/Warrior.cpp.i: cmake_force
@@ -183,6 +225,9 @@ CMakeFiles/applibrary.dir/Professions/Warrior.cpp.s: cmake_force
 
 # Object files for target applibrary
 applibrary_OBJECTS = \
+"CMakeFiles/applibrary.dir/IRace.cpp.o" \
+"CMakeFiles/applibrary.dir/ICharacter.cpp.o" \
+"CMakeFiles/applibrary.dir/CharacterCreator.cpp.o" \
 "CMakeFiles/applibrary.dir/Races/DarkElf.cpp.o" \
 "CMakeFiles/applibrary.dir/Races/Khajit.cpp.o" \
 "CMakeFiles/applibrary.dir/Races/Nord.cpp.o" \
@@ -195,6 +240,9 @@ applibrary_OBJECTS = \
 # External object files for target applibrary
 applibrary_EXTERNAL_OBJECTS =
 
+libapplibrary.so: CMakeFiles/applibrary.dir/IRace.cpp.o
+libapplibrary.so: CMakeFiles/applibrary.dir/ICharacter.cpp.o
+libapplibrary.so: CMakeFiles/applibrary.dir/CharacterCreator.cpp.o
 libapplibrary.so: CMakeFiles/applibrary.dir/Races/DarkElf.cpp.o
 libapplibrary.so: CMakeFiles/applibrary.dir/Races/Khajit.cpp.o
 libapplibrary.so: CMakeFiles/applibrary.dir/Races/Nord.cpp.o
@@ -205,7 +253,7 @@ libapplibrary.so: CMakeFiles/applibrary.dir/Professions/Mage.cpp.o
 libapplibrary.so: CMakeFiles/applibrary.dir/Professions/Warrior.cpp.o
 libapplibrary.so: CMakeFiles/applibrary.dir/build.make
 libapplibrary.so: CMakeFiles/applibrary.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ziadoweis/DataStructures_git/Lab08Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX shared library libapplibrary.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ziadoweis/DataStructures_git/Lab08Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX shared library libapplibrary.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/applibrary.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

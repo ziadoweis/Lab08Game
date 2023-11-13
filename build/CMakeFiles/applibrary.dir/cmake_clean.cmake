@@ -1,4 +1,10 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/applibrary.dir/CharacterCreator.cpp.o"
+  "CMakeFiles/applibrary.dir/CharacterCreator.cpp.o.d"
+  "CMakeFiles/applibrary.dir/ICharacter.cpp.o"
+  "CMakeFiles/applibrary.dir/ICharacter.cpp.o.d"
+  "CMakeFiles/applibrary.dir/IRace.cpp.o"
+  "CMakeFiles/applibrary.dir/IRace.cpp.o.d"
   "CMakeFiles/applibrary.dir/Professions/Archer.cpp.o"
   "CMakeFiles/applibrary.dir/Professions/Archer.cpp.o.d"
   "CMakeFiles/applibrary.dir/Professions/Assassin.cpp.o"

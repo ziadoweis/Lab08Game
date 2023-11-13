@@ -1,6 +1,21 @@
 [
 {
   "directory": "/home/ziadoweis/DataStructures_git/Lab08Game/build",
+  "command": "/usr/bin/g++ -Dapplibrary_EXPORTS  -g -fPIC -std=c++17 -o CMakeFiles/applibrary.dir/IRace.cpp.o -c /home/ziadoweis/DataStructures_git/Lab08Game/IRace.cpp",
+  "file": "/home/ziadoweis/DataStructures_git/Lab08Game/IRace.cpp"
+},
+{
+  "directory": "/home/ziadoweis/DataStructures_git/Lab08Game/build",
+  "command": "/usr/bin/g++ -Dapplibrary_EXPORTS  -g -fPIC -std=c++17 -o CMakeFiles/applibrary.dir/ICharacter.cpp.o -c /home/ziadoweis/DataStructures_git/Lab08Game/ICharacter.cpp",
+  "file": "/home/ziadoweis/DataStructures_git/Lab08Game/ICharacter.cpp"
+},
+{
+  "directory": "/home/ziadoweis/DataStructures_git/Lab08Game/build",
+  "command": "/usr/bin/g++ -Dapplibrary_EXPORTS  -g -fPIC -std=c++17 -o CMakeFiles/applibrary.dir/CharacterCreator.cpp.o -c /home/ziadoweis/DataStructures_git/Lab08Game/CharacterCreator.cpp",
+  "file": "/home/ziadoweis/DataStructures_git/Lab08Game/CharacterCreator.cpp"
+},
+{
+  "directory": "/home/ziadoweis/DataStructures_git/Lab08Game/build",
   "command": "/usr/bin/g++ -Dapplibrary_EXPORTS  -g -fPIC -std=c++17 -o CMakeFiles/applibrary.dir/Races/DarkElf.cpp.o -c /home/ziadoweis/DataStructures_git/Lab08Game/Races/DarkElf.cpp",
   "file": "/home/ziadoweis/DataStructures_git/Lab08Game/Races/DarkElf.cpp"
 },
