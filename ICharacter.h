@@ -30,6 +30,10 @@ public:
         return retVal;
     }
 
+    virtual void Attack() = 0;
+    
+    virtual void DamageTaken() = 0;
+    
     virtual ~ICharacter() {}
 
 protected:

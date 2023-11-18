@@ -53,7 +53,7 @@ CharacterCreator::CharacterCreator()
 	std::shared_ptr<IRace> t3 = std::make_shared<Nord>();
 	std::shared_ptr<IRace> t4 = std::make_shared<Orc>();
     
-	m_raceMap.insert(std::pair(DarkElfType, t1));
+	m_raceMap.insert(std::pair(DarkElfType, t1)); // Same functionality as the matrix below
 	m_raceMap[KhajitType] = t2;
     m_raceMap[NordType] = t3;
     m_raceMap[OrcType] = t4;

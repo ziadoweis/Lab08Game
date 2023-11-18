@@ -13,6 +13,15 @@ class Archer : public ICharacter
 	        m_attackPoints =  8;
 	        m_defensePoints = 3;
         }
+
+        void Attack() override {
+
+        }
+
+        void DamageTaken() override{
+
+        }
+        
         virtual ~Archer();
 
         Archer() = delete;

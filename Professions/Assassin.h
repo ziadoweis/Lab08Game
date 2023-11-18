@@ -13,6 +13,15 @@ class Assassin : public ICharacter
 	        m_attackPoints =  12; // only attack front troops
 	        m_defensePoints = 5; // subtracts from attack points when hit
         }
+
+        void Attack() override {
+
+        }
+
+        void DamageTaken() override{
+
+        }
+        
         virtual ~Assassin();
 
         Assassin() = delete;

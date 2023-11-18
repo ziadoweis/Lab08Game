@@ -13,6 +13,15 @@ class Mage : public ICharacter
 	        m_attackPoints =  5;
 	        m_defensePoints = 8;
         }
+
+        void Attack() override {
+
+        }
+
+        void DamageTaken() override{
+
+        }
+        
         virtual ~Mage();
 
         Mage() = delete;
