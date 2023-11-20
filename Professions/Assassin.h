@@ -3,6 +3,7 @@
 #include "IRace.h"
 #include "ICharacter.h"
 #include <memory>
+#include <iostream>
 
 class Assassin : public ICharacter
 {
@@ -14,12 +15,21 @@ class Assassin : public ICharacter
 	        m_defensePoints = 5; // subtracts from attack points when hit
         }
 
-        void Attack() override {
-
+        int Attack() override {
+            int retVal = this->GetAttackPoints();
+            m_hitPoints -= retVal;
+            return retVal;
         }
 
-        void DamageTaken() override{
-
+        int DamageTaken(int Damage, int Health) override{
+            int retVal = Damage - this->GetDefensePoints();
+            if(Health - retVal > 0){
+                m_hitPoints -= retVal;
+            }
+            else{
+                std::cout << "Assassin has Died\n";
+            }
+            return retVal;
         }
         
         virtual ~Assassin();

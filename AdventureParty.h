@@ -1,6 +1,8 @@
 #pragma once
 #include <vector>
 #include <memory>
+#include "ICharacter.h"
+#include <iostream>
 
 class ICharacter;
 
@@ -11,16 +13,11 @@ private:
 
 public:
 
-    void CharacterAdd(std::shared_ptr<ICharacter> Character) {
-        if (FrontRow.size() < 2) {
-            FrontRow.push_back(Character);
-        } 
+    void CharacterAdd(std::shared_ptr<ICharacter> Character);
 
-        else if (BackRow.size() < 2) {
-            BackRow.push_back(Character);
-        } 
-    }
+    // void FullPartyAttack();
 
-    void FullPartyAttack(){}
+    // void SinglePartyAttack(int EnemyLocation);
+
 
 };

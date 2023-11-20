@@ -30,9 +30,9 @@ public:
         return retVal;
     }
 
-    virtual void Attack() = 0;
+    virtual int Attack() = 0;
     
-    virtual void DamageTaken() = 0;
+    virtual int DamageTaken(int Damage, int Health) = 0;
     
     virtual ~ICharacter() {}
 
