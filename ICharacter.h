@@ -30,6 +30,14 @@ public:
         return retVal;
     }
 
+    virtual int GetHealth() 
+    {
+        return m_hitPoints;
+    }
+
+   
+
+
     virtual int Attack() = 0;
     
     virtual int DamageTaken(int Damage, int Health) = 0;

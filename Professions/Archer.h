@@ -22,13 +22,16 @@ class Archer : public ICharacter
 
         int DamageTaken(int Damage, int Health) override{
             int retVal = Damage - this->GetDefensePoints();
-            if(Health - retVal > 0){
+            std::cout << "Test1" << retVal;
+            if(m_hitPoints >= retVal){
                 m_hitPoints -= retVal;
             }
-            else if(Health - retVal <= 0){
+            else{
+                
                 m_hitPoints = 0;
-                std::cout << "Archer has Died\n";
+                std::cout << "Archer has died\n";
             }
+
             return retVal;
         }
         

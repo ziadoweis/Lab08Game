@@ -60,10 +60,11 @@ int main()
     ArcherTeam2->DamageTaken(ArcherTeam1->Attack(),ArcherTeam2->GetHitPoints());
     std::cout << "Team 2 Member 0's Health:"<< ArcherTeam2->GetHitPoints() << std::endl;
     std::cout << "Team 2 Member 2 Attacks All Team 1 Members\n";
-    ArcherTeam1->DamageTaken(MageTeam2->Attack(),ArcherTeam1->GetHitPoints());
+    ArcherTeam1->DamageTaken(MageTeam2->Attack(),ArcherTeam1->GetHealth());
     AssassinTeam1->DamageTaken(MageTeam2->Attack(),AssassinTeam1->GetHitPoints());
     MageTeam1->DamageTaken(MageTeam2->Attack(),MageTeam1->GetHitPoints());
     WarriorTeam1->DamageTaken(MageTeam2->Attack(),WarriorTeam1->GetHitPoints());
+    ArcherTeam1->DamageTaken(MageTeam2->Attack(),ArcherTeam1->GetHitPoints());
     std::cout << "Team 1 Member 0's Health:"<< ArcherTeam1->GetHitPoints() << std::endl;
     std::cout << "Team 1 Member 1's Health:"<< AssassinTeam1->GetHitPoints() << std::endl;
     std::cout << "Team 1 Member 2's Health:"<< MageTeam1->GetHitPoints() << std::endl;
