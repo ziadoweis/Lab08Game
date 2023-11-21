@@ -9,7 +9,7 @@ include_directories(.) # this line to force include all of the current directory
 add_compile_options(-std=c++17)  
 
 # add main.cpp to add_library to tell it to compile the cpp file and find the main definition (95%)
-add_library (applibrary SHARED AdventureParty.cpp IRace.cpp ICharacter.cpp CharacterCreator.cpp Races/DarkElf.cpp Races/Khajit.cpp Races/Nord.cpp Races/Orc.cpp Professions/Archer.cpp Professions/Assassin.cpp Professions/Mage.cpp Professions/Warrior.cpp)
+add_library (applibrary SHARED main.cpp AdventureParty.cpp IRace.cpp ICharacter.cpp CharacterCreator.cpp Races/DarkElf.cpp Races/Khajit.cpp Races/Nord.cpp Races/Orc.cpp Professions/Archer.cpp Professions/Assassin.cpp Professions/Mage.cpp Professions/Warrior.cpp)
  
 # Link runTests with what we want to test and the GTest and pthread library
 add_executable(runTests tests.cpp)

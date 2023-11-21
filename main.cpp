@@ -207,10 +207,14 @@ int main()
               << "Team 2 Member 2's Health: "<< MageTeam2->GetHitPointsPostMod() << std::endl
               << "Team 2 Member 3's Health: "<< WarriorTeam2->GetHitPointsPostMod() << std::endl;
 
-    std::cout << std::endl << AssassinTeam1->GetCharacterName()
-              << " Attacks " << AssassinTeam2->GetCharacterName() << std::endl << std::endl;
-    DamageTaken(AssassinTeam2, AssassinTeam1->GetAttackPoints(), AssassinTeam2->GetHitPointsPostMod());
+    std::cout << std::endl << AssassinTeam2->GetCharacterName()
+              << " Attacks " << AssassinTeam1->GetCharacterName() << std::endl << std::endl;
+    DamageTaken(AssassinTeam1, AssassinTeam2->GetAttackPoints(), AssassinTeam1->GetHitPointsPostMod());
+    std::cout << "\nTeam 1 Member 0's Health: "<< ArcherTeam1->GetHitPointsPostMod() << std::endl
+              << "Team 1 Member 1's Health: "<< AssassinTeam1->GetHitPointsPostMod() << std::endl
+              << "Team 1 Member 2's Health: "<< MageTeam1->GetHitPointsPostMod() << std::endl
+              << "Team 1 Member 3's Health: "<< WarriorTeam1->GetHitPointsPostMod() << std::endl;
 
-    std::cout << "TEAM 1 WINS!" << std::endl;
+    std::cout << "TEAM 2 WINS!" << std::endl;
 }
 
