@@ -5,7 +5,7 @@ class DarkElf : public IRace
 {
 
 public:
-	DarkElf() : IRace(-5, 5, 0) //Health, attack, defense modifications
+	DarkElf() : IRace(0, 4, 2) //Health, attack, defense modifications
 	{
 
 	}

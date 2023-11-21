@@ -5,7 +5,7 @@ class Nord : public IRace
 {
 
 public:
-	Nord() : IRace(0, 0, 0) //Health, attack, defense modifications
+	Nord() : IRace(2, 2, 2) //Health, attack, defense modifications
 	{
 
 	}

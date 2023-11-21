@@ -12,7 +12,7 @@ class Warrior : public ICharacter
         {
             m_hitPoints = 20;
 	        m_attackPoints =  5;
-	        m_defensePoints = 8;
+	        m_defensePoints = 5;
         }
 
         int Attack() override {
@@ -20,15 +20,20 @@ class Warrior : public ICharacter
             return retVal;
         }
 
-        int DamageTaken(int Damage, int Health) override{
+        void DamageTaken(int Damage, int Health) override{
             int retVal = Damage - this->GetDefensePoints();
             if(Health - retVal > 0){
                 m_hitPoints -= retVal;
             }
-            else{
+            else if(Health - retVal <= 0)
+            {
+                m_hitPoints -= retVal;
                 std::cout << "Warrior has Died\n";
             }
-            return retVal;
+            else{
+                std::cout << "Warrior is already dead.\n";
+            }
+
         }
 
         virtual ~Warrior();

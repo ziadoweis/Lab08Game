@@ -5,7 +5,7 @@ class Orc :public IRace
 {
 
 public:
-	Orc() : IRace(3, -3, 0) //Health, attack, defense modifications
+	Orc() : IRace(3, 3, 0) //Health, attack, defense modifications
 	{
 
 	}

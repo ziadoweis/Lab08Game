@@ -10,9 +10,9 @@ class Archer : public ICharacter
     public:
         Archer(std::shared_ptr<IRace> Race) : ICharacter(Race)
         {
-            m_hitPoints = 10;
-	        m_attackPoints =  8;
-	        m_defensePoints = 3;
+            m_hitPoints = 12;
+	        m_attackPoints =  12;
+	        m_defensePoints = 8;
         }
 
         int Attack() override {
@@ -20,19 +20,20 @@ class Archer : public ICharacter
             return retVal;
         }
 
-        int DamageTaken(int Damage, int Health) override{
+        void DamageTaken(int Damage, int Health) override{
             int retVal = Damage - this->GetDefensePoints();
-            std::cout << "Test1" << retVal;
-            if(m_hitPoints >= retVal){
+            if(Health - retVal > 0){
                 m_hitPoints -= retVal;
             }
+            else if(Health - retVal <= 0)
+            {
+                m_hitPoints -= retVal;
+                std::cout << "Archer has Died\n";
+            }
             else{
-                
-                m_hitPoints = 0;
-                std::cout << "Archer has died\n";
+                std::cout << "Archer is already dead.\n";
             }
 
-            return retVal;
         }
         
         virtual ~Archer();

@@ -11,8 +11,8 @@ class Mage : public ICharacter
         Mage(std::shared_ptr<IRace> Race) : ICharacter(Race)
         {
             m_hitPoints = 15;
-	        m_attackPoints =  5;
-	        m_defensePoints = 8;
+	        m_attackPoints =  10;
+	        m_defensePoints = 5;
         }
 
         int Attack() override {
@@ -20,15 +20,20 @@ class Mage : public ICharacter
             return retVal;
         }
 
-        int DamageTaken(int Damage, int Health) override{
+        void DamageTaken(int Damage, int Health) override{
             int retVal = Damage - this->GetDefensePoints();
             if(Health - retVal > 0){
                 m_hitPoints -= retVal;
             }
-            else{
+            else if(Health - retVal <= 0)
+            {
+                m_hitPoints -= retVal;
                 std::cout << "Mage has Died\n";
             }
-            return retVal;
+            else{
+                std::cout << "Mage is already dead.\n";
+            }
+
         }
         
         virtual ~Mage();

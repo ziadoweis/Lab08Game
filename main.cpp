@@ -56,19 +56,85 @@ int main()
     //Battle Begins
     std::cout << "Team1 Member 0: Dark Elf Archer, Member 1: Khajit Assassin, Member 2: Nord Mage, Member 3: Orc Warrior\n";
     std::cout << "Team2 Member 0: Orc Archer, Member 1: Nord Assassin, Member 2: Khajit Mage, Member 3: Dark Elf Warrior\n" << std::endl;
-    std::cout << "Team 1 Member 0 Attacks Team 2 Member 0\n";
+
+    std::cout << "Team 1 Member 0's Health:"<< ArcherTeam1->GetHitPoints() << std::endl;
+    std::cout << "Team 1 Member 1's Health:"<< AssassinTeam1->GetHitPoints() << std::endl;
+    std::cout << "Team 1 Member 2's Health:"<< MageTeam1->GetHitPoints() << std::endl;
+    std::cout << "Team 1 Member 3's Health:"<< WarriorTeam1->GetHitPoints() << std::endl; 
+    std::cout << "\nTeam 2 Member 0's Health:"<< ArcherTeam2->GetHitPoints() << std::endl;
+    std::cout << "Team 2 Member 1's Health:"<< AssassinTeam2->GetHitPoints() << std::endl;
+    std::cout << "Team 2 Member 2's Health:"<< MageTeam2->GetHitPoints() << std::endl;
+    std::cout << "Team 2 Member 3's Health:"<< WarriorTeam2->GetHitPoints() << std::endl;
+
+    std::cout << "\nTeam 1 Member 0 Attacks Team 2 Member 0\n";
     ArcherTeam2->DamageTaken(ArcherTeam1->Attack(),ArcherTeam2->GetHitPoints());
     std::cout << "Team 2 Member 0's Health:"<< ArcherTeam2->GetHitPoints() << std::endl;
-    std::cout << "Team 2 Member 2 Attacks All Team 1 Members\n";
-    ArcherTeam1->DamageTaken(MageTeam2->Attack(),ArcherTeam1->GetHealth());
+    std::cout << "Team 2 Member 1's Health:"<< AssassinTeam2->GetHitPoints() << std::endl;
+    std::cout << "Team 2 Member 2's Health:"<< MageTeam2->GetHitPoints() << std::endl;
+    std::cout << "Team 2 Member 3's Health:"<< WarriorTeam2->GetHitPoints() << std::endl;
+
+    std::cout << "\nTeam 2 Member 2 Attacks All Team 1 Members\n";
+    ArcherTeam1->DamageTaken(MageTeam2->Attack(),ArcherTeam1->GetHitPoints());
     AssassinTeam1->DamageTaken(MageTeam2->Attack(),AssassinTeam1->GetHitPoints());
     MageTeam1->DamageTaken(MageTeam2->Attack(),MageTeam1->GetHitPoints());
     WarriorTeam1->DamageTaken(MageTeam2->Attack(),WarriorTeam1->GetHitPoints());
-    ArcherTeam1->DamageTaken(MageTeam2->Attack(),ArcherTeam1->GetHitPoints());
     std::cout << "Team 1 Member 0's Health:"<< ArcherTeam1->GetHitPoints() << std::endl;
     std::cout << "Team 1 Member 1's Health:"<< AssassinTeam1->GetHitPoints() << std::endl;
     std::cout << "Team 1 Member 2's Health:"<< MageTeam1->GetHitPoints() << std::endl;
     std::cout << "Team 1 Member 3's Health:"<< WarriorTeam1->GetHitPoints() << std::endl;
+
+    std::cout << "\nTeam 1 Member 0 Attacks Team 2 Member 2\n";
+    MageTeam2->DamageTaken(ArcherTeam1->Attack(),MageTeam2->GetHitPoints());
+    std::cout << "Team 2 Member 0's Health:"<< ArcherTeam2->GetHitPoints() << std::endl;
+    std::cout << "Team 2 Member 1's Health:"<< AssassinTeam2->GetHitPoints() << std::endl;
+    std::cout << "Team 2 Member 2's Health:"<< MageTeam2->GetHitPoints() << std::endl;
+    std::cout << "Team 2 Member 3's Health:"<< WarriorTeam2->GetHitPoints() << std::endl;
+
+    std::cout << "\nTeam 2 Member 3 Attacks Team 1 Member 0 \n";
+    ArcherTeam1->DamageTaken(WarriorTeam2->Attack(),ArcherTeam1->GetHitPoints());
+    std::cout << "Team 1 Member 0's Health:"<< ArcherTeam1->GetHitPoints() << std::endl;
+    std::cout << "Team 1 Member 1's Health:"<< AssassinTeam1->GetHitPoints() << std::endl;
+    std::cout << "Team 1 Member 2's Health:"<< MageTeam1->GetHitPoints() << std::endl;
+    std::cout << "Team 1 Member 3's Health:"<< WarriorTeam1->GetHitPoints() << std::endl;
+
+    std::cout << "\nTeam 1 Member 2 Attacks All Team 2 Members\n";
+    ArcherTeam2->DamageTaken(MageTeam1->Attack(),ArcherTeam2->GetHitPoints());
+    AssassinTeam2->DamageTaken(MageTeam1->Attack(),AssassinTeam2->GetHitPoints());
+    MageTeam2->DamageTaken(MageTeam1->Attack(),MageTeam2->GetHitPoints());
+    WarriorTeam2->DamageTaken(MageTeam1->Attack(),WarriorTeam2->GetHitPoints());
+    std::cout << "Team 2 Member 0's Health:"<< ArcherTeam2->GetHitPoints() << std::endl;
+    std::cout << "Team 2 Member 1's Health:"<< AssassinTeam2->GetHitPoints() << std::endl;
+    std::cout << "Team 2 Member 2's Health:"<< MageTeam2->GetHitPoints() << std::endl;
+    std::cout << "Team 2 Member 3's Health:"<< WarriorTeam2->GetHitPoints() << std::endl;
+
+    std::cout << "\nTeam 2 Member 0 Attacks Team 1 Member 2 \n";
+    MageTeam1->DamageTaken(ArcherTeam2->Attack(),MageTeam1->GetHitPoints());
+    std::cout << "Team 1 Member 0's Health:"<< ArcherTeam1->GetHitPoints() << std::endl;
+    std::cout << "Team 1 Member 1's Health:"<< AssassinTeam1->GetHitPoints() << std::endl;
+    std::cout << "Team 1 Member 2's Health:"<< MageTeam1->GetHitPoints() << std::endl;
+    std::cout << "Team 1 Member 3's Health:"<< WarriorTeam1->GetHitPoints() << std::endl;
+
+    std::cout << "\nTeam 1 Member 3 Attacks Team 2 Member 3\n";
+    WarriorTeam2->DamageTaken(WarriorTeam1->Attack(),WarriorTeam2->GetHitPoints());
+    std::cout << "Team 2 Member 0's Health:"<< ArcherTeam2->GetHitPoints() << std::endl;
+    std::cout << "Team 2 Member 1's Health:"<< AssassinTeam2->GetHitPoints() << std::endl;
+    std::cout << "Team 2 Member 2's Health:"<< MageTeam2->GetHitPoints() << std::endl;
+    std::cout << "Team 2 Member 3's Health:"<< WarriorTeam2->GetHitPoints() << std::endl;
+
+    std::cout << "\nTeam 2 Member 1 Attacks Team 1 Member 3 \n";
+    WarriorTeam1->DamageTaken(AssassinTeam2->Attack(),WarriorTeam1->GetHitPoints());
+    std::cout << "Team 1 Member 0's Health:"<< ArcherTeam1->GetHitPoints() << std::endl;
+    std::cout << "Team 1 Member 1's Health:"<< AssassinTeam1->GetHitPoints() << std::endl;
+    std::cout << "Team 1 Member 2's Health:"<< MageTeam1->GetHitPoints() << std::endl;
+    std::cout << "Team 1 Member 3's Health:"<< WarriorTeam1->GetHitPoints() << std::endl;
+
+    std::cout << "\nTeam 1 Member 2 Attacks Team 2 Member 3\n";
+    WarriorTeam2->DamageTaken(MageTeam1->Attack(),WarriorTeam2->GetHitPoints());
+    std::cout << "Team 2 Member 0's Health:"<< ArcherTeam2->GetHitPoints() << std::endl;
+    std::cout << "Team 2 Member 1's Health:"<< AssassinTeam2->GetHitPoints() << std::endl;
+    std::cout << "Team 2 Member 2's Health:"<< MageTeam2->GetHitPoints() << std::endl;
+    std::cout << "Team 2 Member 3's Health:"<< WarriorTeam2->GetHitPoints() << std::endl;
+
 
     
 }
