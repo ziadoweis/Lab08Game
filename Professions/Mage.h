@@ -5,30 +5,14 @@
 #include <memory>
 #include <iostream>
 
-class Mage : public ICharacter
+class Mage : public ICharacter //Creates a Mage class using the template from ICharacter
 {
     public:
-        Mage(std::shared_ptr<IRace> Race) : ICharacter(Race)
+        Mage(std::shared_ptr<IRace> Race) : ICharacter(Race) //User initialized hitpoints, attackpoints, and defensepoints for coressponding class
         {
             m_hitPoints = 15;
-	        m_attackPoints =  5;
-	        m_defensePoints = 8;
-        }
-
-        int Attack() override {
-            int retVal = this->GetAttackPoints();
-            return retVal;
-        }
-
-        int DamageTaken(int Damage, int Health) override{
-            int retVal = Damage - this->GetDefensePoints();
-            if(Health - retVal > 0){
-                m_hitPoints -= retVal;
-            }
-            else{
-                std::cout << "Mage has Died\n";
-            }
-            return retVal;
+	        m_attackPoints =  15;
+	        m_defensePoints = 5;
         }
         
         virtual ~Mage();

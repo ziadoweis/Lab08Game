@@ -4,20 +4,14 @@
 #include "ICharacter.h"
 #include <iostream>
 
-class ICharacter;
+class ICharacter; //Forward Declaration for ICharacter Class
 
 class AdventuringParty{
 private: 
-    std::vector<std::shared_ptr<ICharacter>> FrontRow;
-    std::vector<std::shared_ptr<ICharacter>> BackRow;
+    std::vector<std::shared_ptr<ICharacter>> FrontRow; //Creates a vector for the two characters in the front of the party
+    std::vector<std::shared_ptr<ICharacter>> BackRow;  //Creates a vector for the two characters in the back of the party
 
 public:
 
-    void CharacterAdd(std::shared_ptr<ICharacter> Character);
-
-    // void FullPartyAttack();
-
-    // void SinglePartyAttack(int EnemyLocation);
-
-
+    void CharacterAdd(std::shared_ptr<ICharacter> Character); //Character Addition class to append characters to the party vector rows
 };

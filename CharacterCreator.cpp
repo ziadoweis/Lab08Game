@@ -22,9 +22,10 @@ CharacterCreator & CharacterCreator::GetCharacterCreator()
 } // instance
 
 
-std::shared_ptr<ICharacter> CharacterCreator::CreateCharacter(enumOfCharacterType CharacterType, raceOfCharacterType race)
+std::shared_ptr<ICharacter> CharacterCreator::CreateCharacter(enumOfCharacterType CharacterType, raceOfCharacterType race)  //Creates a Character of a type race and class that uses a shared pointer
 {
 	std::shared_ptr<ICharacter> retVal = nullptr;
+	//Creates a Shared pointer with a class type for the inputted race
 	if (CharacterType == ArcherType)
 	{
 		retVal = std::make_shared<Archer>(m_raceMap[race]);
@@ -45,7 +46,7 @@ std::shared_ptr<ICharacter> CharacterCreator::CreateCharacter(enumOfCharacterTyp
 	return retVal;
 }
 
-CharacterCreator::CharacterCreator() 
+CharacterCreator::CharacterCreator() //Helps store different races
 {
 		
 	std::shared_ptr<IRace> t1 = std::make_shared<DarkElf>();

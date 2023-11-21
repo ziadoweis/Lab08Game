@@ -5,30 +5,14 @@
 #include <memory>
 #include <iostream>
 
-class Warrior : public ICharacter
+class Warrior : public ICharacter //Creates a Warrior class using the template from ICharacter
 {
     public:
-        Warrior(std::shared_ptr<IRace> Race) : ICharacter(Race)
+        Warrior(std::shared_ptr<IRace> Race) : ICharacter(Race) //User initialized hitpoints, attackpoints, and defensepoints for coressponding class
         {
             m_hitPoints = 20;
-	        m_attackPoints =  5;
-	        m_defensePoints = 8;
-        }
-
-        int Attack() override {
-            int retVal = this->GetAttackPoints();
-            return retVal;
-        }
-
-        int DamageTaken(int Damage, int Health) override{
-            int retVal = Damage - this->GetDefensePoints();
-            if(Health - retVal > 0){
-                m_hitPoints -= retVal;
-            }
-            else{
-                std::cout << "Warrior has Died\n";
-            }
-            return retVal;
+	        m_attackPoints =  10;
+	        m_defensePoints = 5;
         }
 
         virtual ~Warrior();
