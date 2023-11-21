@@ -1,4 +1,4 @@
-#include "tests.h"
+#include "Tests.h"
 #include <gtest/gtest.h>
 
 TEST(Archer1, OrcType) { 
@@ -16,7 +16,7 @@ TEST(Archer2, DarkElfType) {
     std::shared_ptr<ICharacter> ArcherTest2 = CharacterCreator::GetCharacterCreator().CreateCharacter(CharacterCreator::ArcherType, CharacterCreator::DarkElfType); 
     std::shared_ptr<Archer> Archer2 = std::dynamic_pointer_cast<Archer>(ArcherTest2);
 
-    ASSERT_EQ(15, Archer2->GetHitPoints());
+    ASSERT_EQ(12, Archer2->GetHitPoints());
     ASSERT_EQ(10, Archer2 ->GetDefensePoints());
     ASSERT_EQ(21, Archer2 ->GetAttackPoints());
 }

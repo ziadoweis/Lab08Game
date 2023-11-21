@@ -12,7 +12,7 @@ add_compile_options(-std=c++17)
 add_library (applibrary SHARED main.cpp AdventureParty.cpp IRace.cpp ICharacter.cpp CharacterCreator.cpp Races/DarkElf.cpp Races/Khajit.cpp Races/Nord.cpp Races/Orc.cpp Professions/Archer.cpp Professions/Assassin.cpp Professions/Mage.cpp Professions/Warrior.cpp)
  
 # Link runTests with what we want to test and the GTest and pthread library
-add_executable(runTests tests.cpp)
+add_executable(runTests Tests.cpp)
 target_link_libraries(runTests ${GTEST_LIBRARIES} pthread applibrary) 
 
 add_executable(runMain main.cpp)
