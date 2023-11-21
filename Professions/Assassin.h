@@ -15,7 +15,6 @@ class Assassin : public ICharacter //Creates a Warrior class using the template 
 	        m_defensePoints = 8; // subtracts from attack points when hit
         }
 
-        
         virtual ~Assassin();
 
         Assassin() = delete;
